@@ -1,1 +1,1 @@
-Ejemplo de terminal
+Ejemplo de terminal de la sesión
