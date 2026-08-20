@@ -1,0 +1,5 @@
+Nombre: Adrián 
+Carrera: Matematicas y computación
+Relizara tesis/tesina: si
+Asesora: Airam Blancas
+Porcentaje de avance: 100% la parte matemática y modelado 75% parte computacional
