@@ -1,97 +1,82 @@
-   83  mkdir dir1
-   84  mkdir dir2
-   85  cd dir1
-   86  mkdir dir11
-   87  mkdir 12
-   88  rm -r 12
-   89  ls
-   90  mkdir dir12
-   91  mkdir dir13
-   92  cd ..
-   93  ls
-   94  cd dir2
-   95  mkdir dir21
-   96  ls
-   97  cd dir21/
-   98  touch arc1.txt
-   99  arch2.txt
-  100  touch arch2.txt
-  101  ls
-  102  cd ..
-  103  cd dir1
-  104  ls
-  105  cd dir11
-  106  ls
-  107  touch Ej1.txt
-  108  cd ..
-  109  cd dir12/
-  110  ls
-  111  touch Ej2.py
-  112  ls
-  113  cd ..
-  114  ls
-  115  cd dir13/
-  116  ls
-  117  touch Ej3.txt
-  118  ls
-  119  mkdir 131 
-  120  ls
-  121  rm -r dir131
-  122  rm -r 131
-  123  mkdir dir 131
-  124  ls
-  125  rm -r 131
-  126  rm -r dir
-  127  ls
-  128  mkdir dir131
-  129  touch datos.txt
-  130  ls
-  131  nano datos.txt
-  132  ls
-  133  cat datos.txt
-  134  cd ..
-  135  git add .
-  136  git commit -m "tarea1" 
-  137  sudo apt install net-tools}
-  138  sudo apt install net-tools
-  139  git push -u origin master
-  140  ssh colmi@10.10.2.173
-  141  git push -u origin master
-  142  history
-  143  git push -u origin master
-  144  sudo apt install claude
-  145  sudo apt install curl gnupg
-  146  sudo curl -fsSLo /usr/share/keyrings/claude-desktop-archive-keyring.asc https://downloads.claude.ai/claude-desktop/key.asc
-  147  sudo apt update && sudo apt install claude-desktop
-  148  cd ~/Documents/SM_Adrian
-  149  git branch -M main
-  150  ssh-keygen -t ed25519 -C "janadrap16@gmail.com"
-  151  cat ~/.ssh/id_ed25519.pub
-  152  git remote set-url origin git@github.com:JanusAdamus/Seminario.git
-  153  git remote -v
-  154  ssh -T git@github.com
-  155  V
-  156  git status
-  157  git add .
-  158  git commit -m "Completa Ej1 Terminal y SSH"
-  159  git push -u origin main
-  160  cd ~/Documents/SM_Adrian
-  161  tree
-  162  git status
-  163  git log --oneline
-  164  git remote -v
-  165  tree 
-  166  sudo apt install tree
-  167  tree 
-  168  cd ~/Documents/SM_Adrian
-  169  # 1. Corregir nombres de directorios
-  170  mv dir1 Dir1
-  171  mv Dir1/dir11 Dir1/Dir11
-  172  mv Dir1/dir12 Dir1/Dir12
-  173  mv Dir1/dir13 Dir1/Dir13
-  174  mv Dir1/Dir13/dir131 Dir1/Dir13/Dir131
-  175  mv dir2 Dir2
-  176  mv Dir2/dir21 Dir2/Dir21
-  177  mv Dir1/Dir13/datos.txt Dir1/Dir13/Dir131/Datos.txt
-  178  mv Dir2/Dir21/arc1.txt Dir2/Dir21/Arc1.txt
-  179  history | sed -n '83,$p' > Dir2/Dir21/Historial.txt
+    1  cat /etc/os-release
+    2  sudo apt update && sudo apt upgrade -y
+    3  cd Documents/
+    4  mkdir seminario
+    5  ls
+    6  cd seminario
+    7  touch prueba.txt
+    8  ls
+    9  nano prueba.txt
+   10  cat prueba-txt
+   11  cat prueba.txt
+   12  cp prueba.txt ~/Documents/prueba.txt
+   13  cd ..
+   14  ls
+   15  cat prueba.txt
+   16  cp prueba.txt seminario/prueba2.txt
+   17  ls
+   18  cd seminario
+   19  ls
+   20  cat prueba2.txt 
+   21  rm prueba2.txt
+   22  ls
+   23  cd ..
+   24  rm -help
+   25  rm --help
+   26  rm -r seminario
+   27  ls
+   28  clea
+   29  clear
+   30  cd ..
+   31  cd ~
+   32  ls}
+   33  ls
+   34  mkdir SM_Adrian
+   35  lls
+   36  ,ĺks
+   37  slss
+   38  ls
+   39  cd Sm
+   40  cd SM_Adrian/
+   41  cd ..
+   42  mv SM_Adrian/ Documents/
+   43  ls
+   44  cd Do
+   45  cd Documents/
+   46  ls
+   47  cd SM_Adrian/
+   48  pwd
+   49  touch test.py
+   50  ls
+   51  code test.py
+   52  nano test.py
+   53  cat test.py
+   54  python test.py
+   55  python3 test.py
+   56  ls .la
+   57  ls -la
+   58  chmod +x test.py
+   59  ./test.py
+   60  sudo apt git
+   61  touch README.md
+   62  git init
+   63  sudo apt install git
+   64  git init
+   65  ls -a
+   66  nano README.md 
+   67  cat README.md 
+   68  git status
+   69  git add .
+   70  git commit -m "initial Readme"
+   71  git config --global user.email janadrap16@gmail.com
+   72  git config --global user.name JanusAdamus
+   73  git commit -m "initial Readme"
+   74  nano README.md 
+   75  git status
+   76  git diff 
+   77  git add .
+   78  git status
+   79  git commit -m "Actualizado"
+   80  git push
+   81  git log --only
+   82  git log
